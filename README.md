@@ -6,18 +6,24 @@
 **Fechas:** 3 al 9 de agosto de 2025  
 **Modalidad:** Experimental Biológico + Computacional
 
-## Descripción
+---
+
+## 📝 Descripción del Proyecto
 
 La naturaleza tiene sus propios sistemas inteligentes.  
-En este taller combinamos **ciencia marina** y **ciencia de datos** para explorar el **carbono azul** en ecosistemas costeros.  
-Aprendimos a medir variables ambientales en un manglar y a trabajar con imágenes aéreas de drones.  
-Con esos datos, aplicamos **inteligencia artificial** y **aprendizaje automático** para crear modelos de conservación basados en evidencia.
+En este taller combinamos **ciencia marina** y **ciencia de datos** para explorar el **carbono azul** en ecosistemas costeros.
+
+Realizamos trabajo de campo en un **manglar** midiendo variables ambientales y recolectamos **imágenes aéreas con drones**.  
+Con esos datos, aplicamos **inteligencia artificial** y **aprendizaje automático** para:
+
+- Clasificar imágenes de ecosistemas (modelo MLP)
+- Predecir el **contenido de carbono** en biomasa de manglar a partir de variables como especie, diámetro (DAP) y biomasa estimada
 
 > Uniendo naturaleza y tecnología para combatir el cambio climático.
 
 ---
 
-## Objetivos del club
+## 🎯 Objetivos del Club
 
 - Comprender la importancia de los ecosistemas costeros en la mitigación del cambio climático.
 - Aplicar herramientas de ciencia de datos e IA al análisis de datos ambientales y ecológicos.
@@ -25,29 +31,37 @@ Con esos datos, aplicamos **inteligencia artificial** y **aprendizaje automátic
 
 ---
 
-## Contenido del notebook
+## 📊 Resultados Obtenidos
 
-Este repositorio contiene el notebook `ml_cc_2025.ipynb`, donde se desarrolla un modelo de **Machine Learning** para predecir el **contenido de carbono** en biomasa de manglar a partir de variables como:
+### Modelo de clasificación de imágenes (MLP)
+Después de 5 épocas:
 
-- Especie  
-- Diámetro a la altura del pecho (DAP)  
-- Biomasa estimada  
+| Métrica | Entrenamiento | Validación |
+|---------|---------------|-------------|
+| Precisión | ~97% | 80% |
+| Pérdida   | ~0.07 | ~74.5 |
 
-Los modelos utilizados incluyen:
+### Modelos predictivos de carbono
+Se desarrollaron modelos de **Machine Learning** para estimar carbono en biomasa de manglar usando:
+
 - **Decision Tree**
 - **Random Forest**
 - **XGBoost**
 
-El análisis incluye:
-- Preprocesamiento de datos (OneHotEncoder, StandardScaler)
-- Entrenamiento y evaluación (RMSE)
-- Visualización de predicciones
+**Métrica de evaluación:** RMSE (Error cuadrático medio)
 
 ---
 
-## Instructores
+## 🛠️ Tecnologías Utilizadas
 
-- **Javier Espinoza Herrera**  
-- **Ariadne Molina**
+| Herramienta | Uso |
+|-------------|------|
+| **Python 3.x** | Lenguaje principal |
+| **TensorFlow / Keras** | Red neuronal MLP para imágenes |
+| **Scikit-learn** | Decision Tree, Random Forest, preprocesamiento |
+| **XGBoost** | Modelo avanzado para predicción de carbono |
+| **NumPy, Pandas** | Manipulación de datos |
+| **Matplotlib** | Visualización de resultados |
+| **Google Colab** | Entorno de ejecución (GPU T4) |
 
 ---
