@@ -23,14 +23,6 @@ Con esos datos, aplicamos **inteligencia artificial** y **aprendizaje automátic
 
 ---
 
-## Objetivos del Club
-
-- Comprender la importancia de los ecosistemas costeros en la mitigación del cambio climático.
-- Aplicar herramientas de ciencia de datos e IA al análisis de datos ambientales y ecológicos.
-- Desarrollar propuestas basadas en evidencia que integren tecnología y conservación.
-
----
-
 ## Resultados Obtenidos
 
 ### Modelo de clasificación de imágenes (MLP)
