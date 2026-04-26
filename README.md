@@ -8,7 +8,7 @@
 
 ---
 
-## 📝 Descripción del Proyecto
+## Descripción del Proyecto
 
 La naturaleza tiene sus propios sistemas inteligentes.  
 En este taller combinamos **ciencia marina** y **ciencia de datos** para explorar el **carbono azul** en ecosistemas costeros.
@@ -23,7 +23,7 @@ Con esos datos, aplicamos **inteligencia artificial** y **aprendizaje automátic
 
 ---
 
-## 🎯 Objetivos del Club
+## Objetivos del Club
 
 - Comprender la importancia de los ecosistemas costeros en la mitigación del cambio climático.
 - Aplicar herramientas de ciencia de datos e IA al análisis de datos ambientales y ecológicos.
@@ -31,7 +31,7 @@ Con esos datos, aplicamos **inteligencia artificial** y **aprendizaje automátic
 
 ---
 
-## 📊 Resultados Obtenidos
+## Resultados Obtenidos
 
 ### Modelo de clasificación de imágenes (MLP)
 Después de 5 épocas:
@@ -52,7 +52,7 @@ Se desarrollaron modelos de **Machine Learning** para estimar carbono en biomasa
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 | Herramienta | Uso |
 |-------------|------|
